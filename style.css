@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #F0C27B, #4B1248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: max(10px, 2vw);
+}
+.navbar{
+    width:100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: tranparent;
+}
+.title{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: max(10px, 1vw);
+    color: white;
+
+}
+.title span{
+    font-size: max(18px, 2.5vw);
+
+}
+.title h1{
+    font-size: max(18px, 2.5vw);
+}
+.input-box{
+    flex:1;
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.input-box input{
+    width: 50%;
+    height: 80%;
+    padding-left: 10px;
+}
+.input-box button{
+    height: 80%;
+    width: max(40px, 6vw);
+    font-size: max(11px, 1vw);
+    cursor:pointer;
+
+}
+.main{
+    width: 40%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    padding:5px;
+    width: 100%;
+    height: 50px;
+    background: white;
+    font-size: max(12px, 1.5vw)
+}
+.list-icon{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.list-icon input{
+    padding:5px;
+}
+.delt{
+    cursor:pointer;
+}
